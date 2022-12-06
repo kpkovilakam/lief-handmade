@@ -35,11 +35,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #header-text {
     padding: 10px;
-    font-size: 1.5rem;
+    //font-size: 1.5rem;
 }
 
 ul {
@@ -49,5 +51,19 @@ ul {
 }
 
 li {
-    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.1rem;
+}
+
+.hero {
+
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), url("https://kpkovilakam.github.io/lief-handmade/media/hero.jpeg"));
+}
+
+.hero-text {
+
 }
