@@ -27,7 +27,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 0px;
 
 }
 
@@ -60,4 +60,8 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero-image {
+    width: 100%;
 }
