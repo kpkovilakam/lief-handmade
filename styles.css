@@ -94,3 +94,11 @@ li {
 .heading {
     font-weight: bold;
 }
+
+#products {
+
+}
+
+.grid-container {
+    display: grid;
+}
