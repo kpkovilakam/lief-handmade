@@ -21,13 +21,14 @@ a {
 }
 
 header {
-    //position: fixed;
-    //top: 0;
-    //min-height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0px;
+    padding: 5px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #eee;
 
 }
 
@@ -60,8 +61,36 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 69px;
 }
 
 .hero-image {
     width: 100%;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    
+}
+
+.text {
+    padding: 10px;
+    font-size: 1.1rem;
+} 
+
+.heading {
+    font-weight: bold;
 }
